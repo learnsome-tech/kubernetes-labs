@@ -1,0 +1,21 @@
+# Kubernetes: Production-Grade Container Orchestration — lesson m01l05 — Namespaces, Labels And Declarative Manifests
+# https://learnsome.tech/courses/kubernetes-course/watch?lesson=m01l05
+# © LearnSome.tech
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: course-web
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: web
+  namespace: course-web
+  labels:
+    app: web
+spec:
+  containers:
+    - name: web
+      image: nginxinc/nginx-unprivileged:1.29-alpine
+      ports:
+        - containerPort: 8080

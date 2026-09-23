@@ -1,0 +1,15 @@
+# Kubernetes: Production-Grade Container Orchestration — lesson m01l01 — From Docker To Desired State
+# https://learnsome.tech/courses/kubernetes-course/watch?lesson=m01l01
+# © LearnSome.tech
+apiVersion: v1
+kind: Pod
+metadata:
+  name: web
+  labels:
+    app: web
+spec:
+  containers:
+    - name: web
+      image: nginxinc/nginx-unprivileged:1.29-alpine
+      ports:
+        - containerPort: 8080

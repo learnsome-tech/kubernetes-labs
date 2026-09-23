@@ -1,0 +1,21 @@
+# Kubernetes: Production-Grade Container Orchestration — lesson m03l05 — NetworkPolicy And The Consul Service Mesh Boundary
+# https://learnsome.tech/courses/kubernetes-course/watch?lesson=m03l05
+# © LearnSome.tech
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: web-ingress
+spec:
+  podSelector:
+    matchLabels:
+      app: web
+  policyTypes:
+    - Ingress
+  ingress:
+    - from:
+        - namespaceSelector:
+            matchLabels:
+              access: public
+      ports:
+        - protocol: TCP
+          port: 8080

@@ -1,0 +1,20 @@
+# Kubernetes: Production-Grade Container Orchestration — lesson m06l03 — securityContext: Nonroot, Capabilities And Seccomp
+# https://learnsome.tech/courses/kubernetes-course/watch?lesson=m06l03
+# © LearnSome.tech
+apiVersion: v1
+kind: Pod
+metadata:
+  name: hardened-web
+spec:
+  securityContext:
+    runAsNonRoot: true
+    seccompProfile:
+      type: RuntimeDefault
+  containers:
+    - name: web
+      image: nginxinc/nginx-unprivileged:1.29-alpine
+      securityContext:
+        allowPrivilegeEscalation: false
+        capabilities:
+          drop:
+            - ALL

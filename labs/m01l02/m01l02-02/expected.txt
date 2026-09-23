@@ -1,0 +1,4 @@
+etcd                       started from: file
+kube-apiserver             started from: file
+kube-scheduler             started from: file
+kube-controller-manager    started from: file

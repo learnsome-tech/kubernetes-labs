@@ -1,0 +1,25 @@
+# Kubernetes: Production-Grade Container Orchestration — lesson m02l02 — Deployments, ReplicaSets, Rollouts And Rollback
+# https://learnsome.tech/courses/kubernetes-course/watch?lesson=m02l02
+# © LearnSome.tech
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web
+spec:
+  replicas: 3
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 0
+      maxSurge: 1
+  selector:
+    matchLabels:
+      app: web
+  template:
+    metadata:
+      labels:
+        app: web
+    spec:
+      containers:
+        - name: web
+          image: nginxinc/nginx-unprivileged:1.29-alpine

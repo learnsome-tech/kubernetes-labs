@@ -1,0 +1,18 @@
+# Kubernetes: Production-Grade Container Orchestration — lesson m05l01 — Requests, Limits, Quotas And Horizontal Autoscaling
+# https://learnsome.tech/courses/kubernetes-course/watch?lesson=m05l01
+# © LearnSome.tech
+apiVersion: v1
+kind: Pod
+metadata:
+  name: web-budget
+spec:
+  containers:
+    - name: web
+      image: nginxinc/nginx-unprivileged:1.29-alpine
+      resources:
+        requests:
+          cpu: 100m
+          memory: 128Mi
+        limits:
+          cpu: 500m
+          memory: 256Mi

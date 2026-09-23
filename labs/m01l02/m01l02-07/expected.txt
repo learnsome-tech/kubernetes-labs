@@ -1,0 +1,4 @@
+controller-manager:
+ScalingReplicaSet   deployment-controller   Scaled up replica set web-668cf97779 from 0 to 2
+scheduler:
+Scheduled   default-scheduler

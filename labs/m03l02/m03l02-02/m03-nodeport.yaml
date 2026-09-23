@@ -1,0 +1,16 @@
+# Kubernetes: Production-Grade Container Orchestration — lesson m03l02 — NodePort, LoadBalancer And ExternalName
+# https://learnsome.tech/courses/kubernetes-course/watch?lesson=m03l02
+# © LearnSome.tech
+apiVersion: v1
+kind: Service
+metadata:
+  name: web-node
+spec:
+  type: NodePort
+  selector:
+    app: web
+  ports:
+    - name: http
+      port: 80
+      targetPort: 8080
+      nodePort: 30080

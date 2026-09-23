@@ -1,0 +1,3 @@
+pod/web condition met
+Running
+smoke-ok

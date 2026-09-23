@@ -1,0 +1,24 @@
+# Kubernetes: Production-Grade Container Orchestration — lesson m04l04 — StatefulSets, Stable Identity And Data Recovery
+# https://learnsome.tech/courses/kubernetes-course/watch?lesson=m04l04
+# © LearnSome.tech
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: web
+spec:
+  serviceName: web
+  replicas: 1
+  selector:
+    matchLabels:
+      app: web
+  template:
+    metadata:
+      labels:
+        app: web
+    spec:
+      containers:
+        - name: web
+          image: nginxinc/nginx-unprivileged:1.29-alpine
+          volumeMounts:
+            - name: data
+              mountPath: /data

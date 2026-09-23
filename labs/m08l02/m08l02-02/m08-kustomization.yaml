@@ -1,0 +1,14 @@
+# Kubernetes: Production-Grade Container Orchestration — lesson m08l02 — Kustomize Base And Dev And Prod Overlays
+# https://learnsome.tech/courses/kubernetes-course/watch?lesson=m08l02
+# © LearnSome.tech
+resources:
+  - ../../base
+namePrefix: prod-
+namespace: web-prod
+images:
+  - name: web
+    newName: registry.example.test/web
+    newTag: stable
+replicas:
+  - name: web
+    count: 3

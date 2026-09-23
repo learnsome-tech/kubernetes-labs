@@ -1,0 +1,12 @@
+# Kubernetes: Production-Grade Container Orchestration — lesson m05l03 — Taints, Tolerations And Disruption Budgets
+# https://learnsome.tech/courses/kubernetes-course/watch?lesson=m05l03
+# © LearnSome.tech
+apiVersion: policy/v1
+kind: PodDisruptionBudget
+metadata:
+  name: web
+spec:
+  minAvailable: 1
+  selector:
+    matchLabels:
+      app: web

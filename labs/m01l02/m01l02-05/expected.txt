@@ -1,0 +1,4 @@
+/registry/deployments/NS/web
+/registry/pods/NS/web-668cf97779-h4p5p
+/registry/pods/NS/web-668cf97779-zsb2g
+/registry/replicasets/NS/web-668cf97779

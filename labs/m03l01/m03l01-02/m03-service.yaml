@@ -1,0 +1,15 @@
+# Kubernetes: Production-Grade Container Orchestration — lesson m03l01 — ClusterIP, Selectors, EndpointSlices And DNS
+# https://learnsome.tech/courses/kubernetes-course/watch?lesson=m03l01
+# © LearnSome.tech
+apiVersion: v1
+kind: Service
+metadata:
+  name: web
+spec:
+  type: ClusterIP
+  selector:
+    app: web
+  ports:
+    - name: http
+      port: 80
+      targetPort: 8080

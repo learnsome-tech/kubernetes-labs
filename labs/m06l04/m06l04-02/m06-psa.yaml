@@ -1,0 +1,11 @@
+# Kubernetes: Production-Grade Container Orchestration — lesson m06l04 — Pod Security Admission And Pod Security Standards
+# https://learnsome.tech/courses/kubernetes-course/watch?lesson=m06l04
+# © LearnSome.tech
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: course-secure
+  labels:
+    pod-security.kubernetes.io/enforce: restricted
+    pod-security.kubernetes.io/warn: baseline
+    pod-security.kubernetes.io/audit: baseline

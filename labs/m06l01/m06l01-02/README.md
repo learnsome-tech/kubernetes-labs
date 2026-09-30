@@ -20,6 +20,9 @@ In the lesson: This manifest creates a named ServiceAccount and assigns it to th
 2. Read `m06-serviceaccount.yaml`.
 3. Edit `m06-serviceaccount.yaml` and check it: `kubeconform -strict -summary m06-serviceaccount.yaml`.
 4. Check it from the repository root: `./check m06l01-02`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m06l01-02 --command=<id>`:
+   - `validate` (Validate): `kubeconform -strict -summary m06-serviceaccount.yaml`
+   - `verbose` (Validate each resource): `kubeconform -strict -verbose -summary m06-serviceaccount.yaml`
 
 ## How to check
 

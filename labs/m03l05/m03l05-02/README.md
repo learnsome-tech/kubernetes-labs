@@ -20,6 +20,9 @@ In the lesson: This policy selects web pods and isolates their ingress direction
 2. Read `m03-networkpolicy.yaml`.
 3. Edit `m03-networkpolicy.yaml` and check it: `kubeconform -strict -summary m03-networkpolicy.yaml`.
 4. Check it from the repository root: `./check m03l05-02`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m03l05-02 --command=<id>`:
+   - `validate` (Validate): `kubeconform -strict -summary m03-networkpolicy.yaml`
+   - `verbose` (Validate each resource): `kubeconform -strict -verbose -summary m03-networkpolicy.yaml`
 
 ## How to check
 

@@ -20,6 +20,9 @@ In the lesson: This CRD adds a namespaced Website kind to the API. The group and
 2. Read `m08-operator-crd.yaml`.
 3. Edit `m08-operator-crd.yaml` and check it: `kubeconform -strict -summary m08-operator-crd.yaml`.
 4. Check it from the repository root: `./check m08l04-02`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m08l04-02 --command=<id>`:
+   - `validate` (Validate): `kubeconform -strict -summary m08-operator-crd.yaml`
+   - `verbose` (Validate each resource): `kubeconform -strict -verbose -summary m08-operator-crd.yaml`
 
 ## How to check
 

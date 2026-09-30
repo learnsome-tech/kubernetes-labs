@@ -20,6 +20,9 @@ In the lesson: This Job asks for one successful completion and allows two failed
 2. Read `m02-job.yaml`.
 3. Edit `m02-job.yaml` and check it: `kubeconform -strict -summary m02-job.yaml`.
 4. Check it from the repository root: `./check m02l04-02`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m02l04-02 --command=<id>`:
+   - `validate` (Validate): `kubeconform -strict -summary m02-job.yaml`
+   - `verbose` (Validate each resource): `kubeconform -strict -verbose -summary m02-job.yaml`
 
 ## How to check
 

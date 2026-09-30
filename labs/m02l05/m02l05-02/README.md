@@ -20,6 +20,9 @@ In the lesson: The two probes use the same endpoint here, but they have differen
 2. Read `m02-probes.yaml`.
 3. Edit `m02-probes.yaml` and check it: `kubeconform -strict -summary m02-probes.yaml`.
 4. Check it from the repository root: `./check m02l05-02`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m02l05-02 --command=<id>`:
+   - `validate` (Validate): `kubeconform -strict -summary m02-probes.yaml`
+   - `verbose` (Validate each resource): `kubeconform -strict -verbose -summary m02-probes.yaml`
 
 ## How to check
 

@@ -20,6 +20,9 @@ In the lesson: The CronJob adds a schedule and a concurrency policy. Forbid mean
 2. Read `m02-cronjob.yaml`.
 3. Edit `m02-cronjob.yaml` and check it: `kubeconform -strict -summary m02-cronjob.yaml`.
 4. Check it from the repository root: `./check m02l04-03`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m02l04-03 --command=<id>`:
+   - `validate` (Validate): `kubeconform -strict -summary m02-cronjob.yaml`
+   - `verbose` (Validate each resource): `kubeconform -strict -verbose -summary m02-cronjob.yaml`
 
 ## How to check
 

@@ -20,6 +20,9 @@ In the lesson: This small artifact records an architecture decision rather than 
 2. Read `m07-ha-plan.yaml`.
 3. Edit `m07-ha-plan.yaml` and check it: `kubeconform -strict -summary m07-ha-plan.yaml`.
 4. Check it from the repository root: `./check m07l01-03`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m07l01-03 --command=<id>`:
+   - `validate` (Validate): `kubeconform -strict -summary m07-ha-plan.yaml`
+   - `verbose` (Validate each resource): `kubeconform -strict -verbose -summary m07-ha-plan.yaml`
 
 ## How to check
 

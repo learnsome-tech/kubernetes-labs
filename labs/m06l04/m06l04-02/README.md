@@ -20,6 +20,9 @@ In the lesson: The namespace enforces the restricted standard, while warn and au
 2. Read `m06-psa.yaml`.
 3. Edit `m06-psa.yaml` and check it: `kubeconform -strict -summary m06-psa.yaml`.
 4. Check it from the repository root: `./check m06l04-02`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m06l04-02 --command=<id>`:
+   - `validate` (Validate): `kubeconform -strict -summary m06-psa.yaml`
+   - `verbose` (Validate each resource): `kubeconform -strict -verbose -summary m06-psa.yaml`
 
 ## How to check
 

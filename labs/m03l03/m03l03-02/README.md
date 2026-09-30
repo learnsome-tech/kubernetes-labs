@@ -20,6 +20,9 @@ In the lesson: This Ingress selects a controller through its class, then declare
 2. Read `m03-ingress.yaml`.
 3. Edit `m03-ingress.yaml` and check it: `kubeconform -strict -summary m03-ingress.yaml`.
 4. Check it from the repository root: `./check m03l03-02`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m03l03-02 --command=<id>`:
+   - `validate` (Validate): `kubeconform -strict -summary m03-ingress.yaml`
+   - `verbose` (Validate each resource): `kubeconform -strict -verbose -summary m03-ingress.yaml`
 
 ## How to check
 

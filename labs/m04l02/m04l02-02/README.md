@@ -20,6 +20,9 @@ In the lesson: This claim requests one unit of storage with read write once acce
 2. Read `m04-pvc.yaml`.
 3. Edit `m04-pvc.yaml` and check it: `kubeconform -strict -summary m04-pvc.yaml`.
 4. Check it from the repository root: `./check m04l02-02`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m04l02-02 --command=<id>`:
+   - `validate` (Validate): `kubeconform -strict -summary m04-pvc.yaml`
+   - `verbose` (Validate each resource): `kubeconform -strict -verbose -summary m04-pvc.yaml`
 
 ## How to check
 

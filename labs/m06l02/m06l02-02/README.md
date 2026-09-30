@@ -20,6 +20,9 @@ In the lesson: The Role grants only get and list on pods in one namespace. The R
 2. Read `m06-rbac.yaml`.
 3. Edit `m06-rbac.yaml` and check it: `kubeconform -strict -summary m06-rbac.yaml`.
 4. Check it from the repository root: `./check m06l02-02`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m06l02-02 --command=<id>`:
+   - `validate` (Validate): `kubeconform -strict -summary m06-rbac.yaml`
+   - `verbose` (Validate each resource): `kubeconform -strict -verbose -summary m06-rbac.yaml`
 
 ## How to check
 

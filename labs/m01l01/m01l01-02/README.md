@@ -26,6 +26,9 @@ In the lesson: Here is the whole manifest. Four top level keys, and every Kubern
    - Line 6: labels are how everything else will find this pod later
 4. Edit `pod.yaml` and check it: `kubeconform -strict -summary pod.yaml`.
 5. Check it from the repository root: `./check m01l01-02`.
+6. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m01l01-02 --command=<id>`:
+   - `validate` (Validate): `kubeconform -strict -summary pod.yaml`
+   - `verbose` (Validate each resource): `kubeconform -strict -verbose -summary pod.yaml`
 
 ## How to check
 

@@ -20,6 +20,9 @@ In the lesson: The manifest looks like a Deployment until the controller kind ch
 2. Read `m02-daemonset.yaml`.
 3. Edit `m02-daemonset.yaml` and check it: `kubeconform -strict -summary m02-daemonset.yaml`.
 4. Check it from the repository root: `./check m02l03-02`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m02l03-02 --command=<id>`:
+   - `validate` (Validate): `kubeconform -strict -summary m02-daemonset.yaml`
+   - `verbose` (Validate each resource): `kubeconform -strict -verbose -summary m02-daemonset.yaml`
 
 ## How to check
 

@@ -20,6 +20,9 @@ In the lesson: The document creates a namespace and then places a named pod insi
 2. Read `m01-namespaced-web.yaml`.
 3. Edit `m01-namespaced-web.yaml` and check it: `kubeconform -strict -summary m01-namespaced-web.yaml`.
 4. Check it from the repository root: `./check m01l05-03`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m01l05-03 --command=<id>`:
+   - `validate` (Validate): `kubeconform -strict -summary m01-namespaced-web.yaml`
+   - `verbose` (Validate each resource): `kubeconform -strict -verbose -summary m01-namespaced-web.yaml`
 
 ## How to check
 

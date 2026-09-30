@@ -20,6 +20,9 @@ In the lesson: This container requests a small baseline and can use more CPU and
 2. Read `m05-resources.yaml`.
 3. Edit `m05-resources.yaml` and check it: `kubeconform -strict -summary m05-resources.yaml`.
 4. Check it from the repository root: `./check m05l01-02`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m05l01-02 --command=<id>`:
+   - `validate` (Validate): `kubeconform -strict -summary m05-resources.yaml`
+   - `verbose` (Validate each resource): `kubeconform -strict -verbose -summary m05-resources.yaml`
 
 ## How to check
 

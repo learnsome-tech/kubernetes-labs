@@ -20,6 +20,9 @@ In the lesson: These values expose the choices an operator is expected to change
 2. Read `m08-helm-values.yaml`.
 3. Edit `m08-helm-values.yaml` and check it: `yamllint m08-helm-values.yaml`.
 4. Check it from the repository root: `./check m08l01-02`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m08l01-02 --command=<id>`:
+   - `lint` (Lint): `yamllint -d relaxed m08-helm-values.yaml`
+   - `strict` (Lint strictly): `yamllint m08-helm-values.yaml`
 
 ## How to check
 

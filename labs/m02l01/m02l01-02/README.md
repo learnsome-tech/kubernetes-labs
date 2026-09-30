@@ -20,6 +20,9 @@ In the lesson: The init container runs before the application container and must
 2. Read `m02-init.yaml`.
 3. Edit `m02-init.yaml` and check it: `kubeconform -strict -summary m02-init.yaml`.
 4. Check it from the repository root: `./check m02l01-02`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m02l01-02 --command=<id>`:
+   - `validate` (Validate): `kubeconform -strict -summary m02-init.yaml`
+   - `verbose` (Validate each resource): `kubeconform -strict -verbose -summary m02-init.yaml`
 
 ## How to check
 

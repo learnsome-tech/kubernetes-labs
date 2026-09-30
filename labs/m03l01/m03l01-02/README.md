@@ -20,6 +20,9 @@ In the lesson: This Service uses the default ClusterIP type, which makes it reac
 2. Read `m03-service.yaml`.
 3. Edit `m03-service.yaml` and check it: `kubeconform -strict -summary m03-service.yaml`.
 4. Check it from the repository root: `./check m03l01-02`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m03l01-02 --command=<id>`:
+   - `validate` (Validate): `kubeconform -strict -summary m03-service.yaml`
+   - `verbose` (Validate each resource): `kubeconform -strict -verbose -summary m03-service.yaml`
 
 ## How to check
 

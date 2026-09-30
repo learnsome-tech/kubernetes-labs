@@ -20,6 +20,9 @@ In the lesson: This overlay reuses the base, prefixes names, selects a namespace
 2. Read `m08-kustomization.yaml`.
 3. Edit `m08-kustomization.yaml` and check it: `yamllint m08-kustomization.yaml`.
 4. Check it from the repository root: `./check m08l02-02`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m08l02-02 --command=<id>`:
+   - `lint` (Lint): `yamllint -d relaxed m08-kustomization.yaml`
+   - `strict` (Lint strictly): `yamllint m08-kustomization.yaml`
 
 ## How to check
 

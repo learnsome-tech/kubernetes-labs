@@ -20,6 +20,9 @@ In the lesson: The pod asks kubelet to reject a root process and use the runtime
 2. Read `m06-securitycontext.yaml`.
 3. Edit `m06-securitycontext.yaml` and check it: `kubeconform -strict -summary m06-securitycontext.yaml`.
 4. Check it from the repository root: `./check m06l03-02`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m06l03-02 --command=<id>`:
+   - `validate` (Validate): `kubeconform -strict -summary m06-securitycontext.yaml`
+   - `verbose` (Validate each resource): `kubeconform -strict -verbose -summary m06-securitycontext.yaml`
 
 ## How to check
 

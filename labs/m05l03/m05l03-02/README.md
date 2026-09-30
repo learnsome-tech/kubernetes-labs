@@ -20,6 +20,9 @@ In the lesson: This Pod Disruption Budget protects at least one ready web pod du
 2. Read `m05-pdb.yaml`.
 3. Edit `m05-pdb.yaml` and check it: `kubeconform -strict -summary m05-pdb.yaml`.
 4. Check it from the repository root: `./check m05l03-02`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m05l03-02 --command=<id>`:
+   - `validate` (Validate): `kubeconform -strict -summary m05-pdb.yaml`
+   - `verbose` (Validate each resource): `kubeconform -strict -verbose -summary m05-pdb.yaml`
 
 ## How to check
 

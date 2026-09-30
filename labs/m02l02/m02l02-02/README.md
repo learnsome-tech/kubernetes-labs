@@ -20,6 +20,9 @@ In the lesson: This Deployment asks for three copies and chooses a rolling updat
 2. Read `m02-deployment.yaml`.
 3. Edit `m02-deployment.yaml` and check it: `kubeconform -strict -summary m02-deployment.yaml`.
 4. Check it from the repository root: `./check m02l02-02`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m02l02-02 --command=<id>`:
+   - `validate` (Validate): `kubeconform -strict -summary m02-deployment.yaml`
+   - `verbose` (Validate each resource): `kubeconform -strict -verbose -summary m02-deployment.yaml`
 
 ## How to check
 

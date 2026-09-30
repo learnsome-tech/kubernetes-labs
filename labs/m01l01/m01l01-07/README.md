@@ -26,6 +26,9 @@ In the lesson: The rest of the file is the template: the pod this Deployment sta
    - Line 11: readiness decides whether traffic is sent here, not whether it lives
 4. Edit `web-deployment.yaml` and check it: `yamllint web-deployment.yaml`.
 5. Check it from the repository root: `./check m01l01-07`.
+6. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m01l01-07 --command=<id>`:
+   - `lint` (Lint): `yamllint -d relaxed web-deployment.yaml`
+   - `strict` (Lint strictly): `yamllint web-deployment.yaml`
 
 ## How to check
 

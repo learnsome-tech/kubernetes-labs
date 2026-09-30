@@ -20,6 +20,9 @@ In the lesson: The first resource is a Gateway with an implementation class and 
 2. Read `m03-gateway.yaml`.
 3. Edit `m03-gateway.yaml` and check it: `kubeconform -strict -summary m03-gateway.yaml`.
 4. Check it from the repository root: `./check m03l04-02`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m03l04-02 --command=<id>`:
+   - `validate` (Validate): `kubeconform -strict -summary m03-gateway.yaml`
+   - `verbose` (Validate each resource): `kubeconform -strict -verbose -summary m03-gateway.yaml`
 
 ## How to check
 

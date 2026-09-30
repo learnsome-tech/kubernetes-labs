@@ -1,0 +1,17 @@
+{
+  "lab": "m08l03-04",
+  "lesson": "m08l03",
+  "title": "Read reconciliation and drift",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "shell-read-reconciliation-and-drift.py",
+  "files": [
+    "shell-read-reconciliation-and-drift.py"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a listing to read alongside the lesson, not a program to run."
+}

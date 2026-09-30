@@ -1,19 +1,22 @@
-# Troubleshooting: NotReady Nodes And kubelet Logs
+# m07l04 · Troubleshooting: NotReady Nodes And kubelet Logs
 
-**Course**: [Kubernetes: Production-Grade Container Orchestration](https://learnsome.tech/courses/kubernetes-course)  
-**Module**: Cluster Operations And Recovery  
-**Lesson**: `m07l04`
+Module 7: Cluster Operations And Recovery · lesson 7.4 · Pro · [Open the lesson](https://learnsome.tech/learn/kubernetes-course/m07l04)
 
-## Links
+**Goal:** You can diagnose a NotReady node by separating heartbeat, runtime, network, and resource evidence and reading kubelet logs.
 
-- [Watch lesson](https://learnsome.tech/courses/kubernetes-course/watch?lesson=m07l04)
-- [Handbook](https://learnsome.tech/courses/kubernetes-course/book#lesson-7-4)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m07l04-02](m07l04-02/) | Read node conditions and events | Read along |
 
-- [`m07l04-02/`](m07l04-02/)
+## Check yourself
+
+- Who posts node heartbeats?
+- What can a NotReady status hide?
+- Where do CNI startup errors appear?
+- What confirms recovery beyond Ready?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Kubernetes: Production-Grade Container Orchestration on LearnSome.tech](https://learnsome.tech/courses/kubernetes-course)

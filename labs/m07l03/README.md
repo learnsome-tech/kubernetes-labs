@@ -1,20 +1,23 @@
-# etcd Snapshots And A Tested Restore
+# m07l03 · etcd Snapshots And A Tested Restore
 
-**Course**: [Kubernetes: Production-Grade Container Orchestration](https://learnsome.tech/courses/kubernetes-course)  
-**Module**: Cluster Operations And Recovery  
-**Lesson**: `m07l03`
+Module 7: Cluster Operations And Recovery · lesson 7.3 · Pro · [Open the lesson](https://learnsome.tech/learn/kubernetes-course/m07l03)
 
-## Links
+**Goal:** You can describe an etcd snapshot, protect its metadata, and verify a restore procedure on an isolated control plane.
 
-- [Watch lesson](https://learnsome.tech/courses/kubernetes-course/watch?lesson=m07l03)
-- [Handbook](https://learnsome.tech/courses/kubernetes-course/book#lesson-7-3)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m07l03-02](m07l03-02/) | A snapshot record for the runbook | Read along |
+| [m07l03-03](m07l03-03/) | Read snapshot evidence | Read along |
 
-- [`m07l03-02/`](m07l03-02/)
-- [`m07l03-03/`](m07l03-03/)
+## Check yourself
+
+- What does etcd store?
+- Why is quorum not a backup?
+- What does a snapshot checksum prove?
+- Where should restore testing happen?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Kubernetes: Production-Grade Container Orchestration on LearnSome.tech](https://learnsome.tech/courses/kubernetes-course)

@@ -1,0 +1,19 @@
+{
+  "lab": "m02l03-02",
+  "lesson": "m02l03",
+  "title": "A node agent as a DaemonSet",
+  "mode": "checker",
+  "runner": "kubeconform",
+  "command": "kubeconform -strict -summary m02-daemonset.yaml",
+  "main": "m02-daemonset.yaml",
+  "files": [
+    "m02-daemonset.yaml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "kubeconform"
+  ],
+  "note": null
+}

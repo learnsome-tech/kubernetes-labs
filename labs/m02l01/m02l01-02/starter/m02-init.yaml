@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ordered
+spec:
+  initContainers:
+    - name: first
+      image: busybox:1.37
+      command: ["sh", "-c", "echo waiting for the database; sleep 20"]
+    - name: second
+      image: busybox:1.37
+      command: ["sh", "-c", "echo schema is ready"]
+  containers:
+    - name: app
+      image: busybox:1.37
+      command: ["sh", "-c", "echo the app is serving; sleep 3600"]

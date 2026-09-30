@@ -1,0 +1,19 @@
+{
+  "lab": "m04l01-02",
+  "lesson": "m04l01",
+  "title": "A ConfigMap and a Secret",
+  "mode": "checker",
+  "runner": "kubeconform",
+  "command": "kubeconform -strict -summary m04-config.yaml",
+  "main": "m04-config.yaml",
+  "files": [
+    "m04-config.yaml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "kubeconform"
+  ],
+  "note": null
+}

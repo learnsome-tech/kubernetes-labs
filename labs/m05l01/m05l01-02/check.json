@@ -1,0 +1,19 @@
+{
+  "lab": "m05l01-02",
+  "lesson": "m05l01",
+  "title": "A pod with explicit resource policy",
+  "mode": "checker",
+  "runner": "kubeconform",
+  "command": "kubeconform -strict -summary m05-resources.yaml",
+  "main": "m05-resources.yaml",
+  "files": [
+    "m05-resources.yaml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "kubeconform"
+  ],
+  "note": null
+}

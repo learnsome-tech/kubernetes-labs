@@ -1,20 +1,23 @@
-# A Tiny CRD, Controller And The Operator Pattern
+# m08l04 · A Tiny CRD, Controller And The Operator Pattern
 
-**Course**: [Kubernetes: Production-Grade Container Orchestration](https://learnsome.tech/courses/kubernetes-course)  
-**Module**: Packaging, GitOps And Operators  
-**Lesson**: `m08l04`
+Module 8: Packaging, GitOps And Operators · lesson 8.4 · Pro · [Open the lesson](https://learnsome.tech/learn/kubernetes-course/m08l04)
 
-## Links
+**Goal:** You can read a small CRD, create a custom resource, and explain how a controller reconciles its desired and observed state.
 
-- [Watch lesson](https://learnsome.tech/courses/kubernetes-course/watch?lesson=m08l04)
-- [Handbook](https://learnsome.tech/courses/kubernetes-course/book#lesson-8-4)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m08l04-02](m08l04-02/) | A tiny Website custom resource | Checker |
+| [m08l04-04](m08l04-04/) | Read a custom resource status | Read along |
 
-- [`m08l04-02/`](m08l04-02/)
-- [`m08l04-04/`](m08l04-04/)
+## Check yourself
+
+- What does a CRD add?
+- What belongs in a custom resource?
+- Why must reconcile be idempotent?
+- What should status report?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Kubernetes: Production-Grade Container Orchestration on LearnSome.tech](https://learnsome.tech/courses/kubernetes-course)

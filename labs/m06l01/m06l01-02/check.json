@@ -1,0 +1,19 @@
+{
+  "lab": "m06l01-02",
+  "lesson": "m06l01",
+  "title": "Give a pod its own identity",
+  "mode": "checker",
+  "runner": "kubeconform",
+  "command": "kubeconform -strict -summary m06-serviceaccount.yaml",
+  "main": "m06-serviceaccount.yaml",
+  "files": [
+    "m06-serviceaccount.yaml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "kubeconform"
+  ],
+  "note": null
+}

@@ -1,20 +1,23 @@
-# Troubleshooting: ImagePullBackOff And Failed Rollouts
+# m02l06 · Troubleshooting: ImagePullBackOff And Failed Rollouts
 
-**Course**: [Kubernetes: Production-Grade Container Orchestration](https://learnsome.tech/courses/kubernetes-course)  
-**Module**: Running And Repairing Workloads  
-**Lesson**: `m02l06`
+Module 2: Running And Repairing Workloads · lesson 2.6 · Pro · [Open the lesson](https://learnsome.tech/learn/kubernetes-course/m02l06)
 
-## Links
+**Goal:** You can distinguish image pull failures from application crashes, use rollout evidence to find a bad revision, and recover without guessing.
 
-- [Watch lesson](https://learnsome.tech/courses/kubernetes-course/watch?lesson=m02l06)
-- [Handbook](https://learnsome.tech/courses/kubernetes-course/book#lesson-2-6)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m02l06-02](m02l06-02/) | Diagnose an image pull failure | Read along |
+| [m02l06-03](m02l06-03/) | Read a failed rollout and recover | Read along |
 
-- [`m02l06-02/`](m02l06-02/)
-- [`m02l06-03/`](m02l06-03/)
+## Check yourself
+
+- Why is exec useless during an image pull failure?
+- Which evidence identifies the image reference?
+- What does a progress deadline mean?
+- When is rollback a reasonable first repair?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Kubernetes: Production-Grade Container Orchestration on LearnSome.tech](https://learnsome.tech/courses/kubernetes-course)

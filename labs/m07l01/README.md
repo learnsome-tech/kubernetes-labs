@@ -1,19 +1,22 @@
-# kubeadm, High Availability And Cluster Lifecycle
+# m07l01 · kubeadm, High Availability And Cluster Lifecycle
 
-**Course**: [Kubernetes: Production-Grade Container Orchestration](https://learnsome.tech/courses/kubernetes-course)  
-**Module**: Cluster Operations And Recovery  
-**Lesson**: `m07l01`
+Module 7: Cluster Operations And Recovery · lesson 7.1 · Pro · [Open the lesson](https://learnsome.tech/learn/kubernetes-course/m07l01)
 
-## Links
+**Goal:** You can describe kubeadm phases, identify the highly available control plane dependencies, and plan lifecycle changes safely.
 
-- [Watch lesson](https://learnsome.tech/courses/kubernetes-course/watch?lesson=m07l01)
-- [Handbook](https://learnsome.tech/courses/kubernetes-course/book#lesson-7-1)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m07l01-03](m07l01-03/) | Record the intended control plane | Checker |
 
-- [`m07l01-03/`](m07l01-03/)
+## Check yourself
+
+- What does kubeadm init create?
+- Why is an API endpoint part of high availability?
+- What does leader election protect?
+- Why is reset not a complete data deletion?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Kubernetes: Production-Grade Container Orchestration on LearnSome.tech](https://learnsome.tech/courses/kubernetes-course)

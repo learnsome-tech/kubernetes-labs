@@ -1,0 +1,17 @@
+{
+  "lab": "m03l06-02",
+  "lesson": "m03l06",
+  "title": "An empty EndpointSlice explains the timeout",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "shell-an-empty-endpointslice-explains-the-timeout.py",
+  "files": [
+    "shell-an-empty-endpointslice-explains-the-timeout.py"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a listing to read alongside the lesson, not a program to run."
+}

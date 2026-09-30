@@ -1,20 +1,23 @@
-# Troubleshooting: A Timed Service Recovery Drill
+# m07l06 · Troubleshooting: A Timed Service Recovery Drill
 
-**Course**: [Kubernetes: Production-Grade Container Orchestration](https://learnsome.tech/courses/kubernetes-course)  
-**Module**: Cluster Operations And Recovery  
-**Lesson**: `m07l06`
+Module 7: Cluster Operations And Recovery · lesson 7.6 · Pro · [Open the lesson](https://learnsome.tech/learn/kubernetes-course/m07l06)
 
-## Links
+**Goal:** You can run a bounded recovery drill from symptom to evidence, repair, smoke test, and written handoff.
 
-- [Watch lesson](https://learnsome.tech/courses/kubernetes-course/watch?lesson=m07l06)
-- [Handbook](https://learnsome.tech/courses/kubernetes-course/book#lesson-7-6)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m07l06-02](m07l06-02/) | Start with a narrow evidence bundle | Read along |
+| [m07l06-03](m07l06-03/) | Repair, smoke test, and hand off | Read along |
 
-- [`m07l06-02/`](m07l06-02/)
-- [`m07l06-03/`](m07l06-03/)
+## Check yourself
+
+- What starts the recovery clock?
+- Why capture evidence before rollback?
+- What proves the Service recovered?
+- What belongs in the handoff?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Kubernetes: Production-Grade Container Orchestration on LearnSome.tech](https://learnsome.tech/courses/kubernetes-course)

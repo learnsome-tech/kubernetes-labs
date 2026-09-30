@@ -1,0 +1,19 @@
+{
+  "lab": "m08l02-02",
+  "lesson": "m08l02",
+  "title": "The base and a production overlay",
+  "mode": "checker",
+  "runner": "yamllint",
+  "command": "yamllint m08-kustomization.yaml",
+  "main": "m08-kustomization.yaml",
+  "files": [
+    "m08-kustomization.yaml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "yamllint"
+  ],
+  "note": null
+}

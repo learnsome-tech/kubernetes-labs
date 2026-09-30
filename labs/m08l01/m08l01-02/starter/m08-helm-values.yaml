@@ -1,0 +1,11 @@
+replicaCount: 2
+image:
+  repository: nginxinc/nginx-unprivileged
+  tag: 1.29-alpine
+service:
+  type: ClusterIP
+  port: 80
+resources:
+  requests:
+    cpu: 100m
+    memory: 128Mi

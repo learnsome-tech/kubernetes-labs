@@ -1,20 +1,23 @@
-# securityContext: Nonroot, Capabilities And Seccomp
+# m06l03 · securityContext: Nonroot, Capabilities And Seccomp
 
-**Course**: [Kubernetes: Production-Grade Container Orchestration](https://learnsome.tech/courses/kubernetes-course)  
-**Module**: Identity And Pod Security  
-**Lesson**: `m06l03`
+Module 6: Identity And Pod Security · lesson 6.3 · Pro · [Open the lesson](https://learnsome.tech/learn/kubernetes-course/m06l03)
 
-## Links
+**Goal:** You can set a pod and container securityContext that runs as nonroot, drops capabilities, and uses a seccomp profile.
 
-- [Watch lesson](https://learnsome.tech/courses/kubernetes-course/watch?lesson=m06l03)
-- [Handbook](https://learnsome.tech/courses/kubernetes-course/book#lesson-6-3)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m06l03-02](m06l03-02/) | Run the web process with fewer privileges | Checker |
+| [m06l03-03](m06l03-03/) | Read the effective security settings | Read along |
 
-- [`m06l03-02/`](m06l03-02/)
-- [`m06l03-03/`](m06l03-03/)
+## Check yourself
+
+- How do pod and container settings combine?
+- What does runAsNonRoot ask kubelet to do?
+- Why drop capabilities?
+- What evidence proves enforcement at runtime?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Kubernetes: Production-Grade Container Orchestration on LearnSome.tech](https://learnsome.tech/courses/kubernetes-course)

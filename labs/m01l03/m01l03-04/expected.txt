@@ -1,5 +1,0 @@
-containers the runtime has for us:
-web  CONTAINER_RUNNING
-web  CONTAINER_RUNNING
-network plugin configuration on the node:
-10-kindnet.conflist

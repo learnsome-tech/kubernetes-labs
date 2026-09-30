@@ -1,0 +1,19 @@
+{
+  "lab": "m03l02-02",
+  "lesson": "m03l02",
+  "title": "The same selector with a NodePort",
+  "mode": "checker",
+  "runner": "kubeconform",
+  "command": "kubeconform -strict -summary m03-nodeport.yaml",
+  "main": "m03-nodeport.yaml",
+  "files": [
+    "m03-nodeport.yaml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "kubeconform"
+  ],
+  "note": null
+}

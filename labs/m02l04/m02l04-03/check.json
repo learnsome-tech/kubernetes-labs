@@ -1,0 +1,19 @@
+{
+  "lab": "m02l04-03",
+  "lesson": "m02l04",
+  "title": "A scheduled Job with guardrails",
+  "mode": "checker",
+  "runner": "kubeconform",
+  "command": "kubeconform -strict -summary m02-cronjob.yaml",
+  "main": "m02-cronjob.yaml",
+  "files": [
+    "m02-cronjob.yaml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "kubeconform"
+  ],
+  "note": null
+}

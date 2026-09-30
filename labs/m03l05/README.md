@@ -1,20 +1,23 @@
-# NetworkPolicy And The Consul Service Mesh Boundary
+# m03l05 · NetworkPolicy And The Consul Service Mesh Boundary
 
-**Course**: [Kubernetes: Production-Grade Container Orchestration](https://learnsome.tech/courses/kubernetes-course)  
-**Module**: Services And External Traffic  
-**Lesson**: `m03l05`
+Module 3: Services And External Traffic · lesson 3.5 · Pro · [Open the lesson](https://learnsome.tech/learn/kubernetes-course/m03l05)
 
-## Links
+**Goal:** You can use NetworkPolicy to state pod traffic rules and explain what a service mesh adds beyond the network boundary.
 
-- [Watch lesson](https://learnsome.tech/courses/kubernetes-course/watch?lesson=m03l05)
-- [Handbook](https://learnsome.tech/courses/kubernetes-course/book#lesson-3-5)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m03l05-02](m03l05-02/) | Allow web traffic from one namespace | Checker |
+| [m03l05-04](m03l05-04/) | Test both sides of the policy | Read along |
 
-- [`m03l05-02/`](m03l05-02/)
-- [`m03l05-04/`](m03l05-04/)
+## Check yourself
+
+- What makes a pod ingress isolated?
+- Who enforces NetworkPolicy?
+- Why does a mesh not replace packet policy?
+- What two clients should a policy test use?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Kubernetes: Production-Grade Container Orchestration on LearnSome.tech](https://learnsome.tech/courses/kubernetes-course)

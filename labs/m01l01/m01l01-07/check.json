@@ -1,0 +1,19 @@
+{
+  "lab": "m01l01-07",
+  "lesson": "m01l01",
+  "title": "A Deployment, bottom half: the pod it stamps out",
+  "mode": "checker",
+  "runner": "yamllint",
+  "command": "yamllint web-deployment.yaml",
+  "main": "web-deployment.yaml",
+  "files": [
+    "web-deployment.yaml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "yamllint"
+  ],
+  "note": null
+}

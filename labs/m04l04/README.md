@@ -1,20 +1,23 @@
-# StatefulSets, Stable Identity And Data Recovery
+# m04l04 · StatefulSets, Stable Identity And Data Recovery
 
-**Course**: [Kubernetes: Production-Grade Container Orchestration](https://learnsome.tech/courses/kubernetes-course)  
-**Module**: Configuration And Persistent Data  
-**Lesson**: `m04l04`
+Module 4: Configuration And Persistent Data · lesson 4.4 · Pro · [Open the lesson](https://learnsome.tech/learn/kubernetes-course/m04l04)
 
-## Links
+**Goal:** You can match a StatefulSet to stable identities and claims, update it carefully, and describe a tested recovery path.
 
-- [Watch lesson](https://learnsome.tech/courses/kubernetes-course/watch?lesson=m04l04)
-- [Handbook](https://learnsome.tech/courses/kubernetes-course/book#lesson-4-4)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m04l04-02](m04l04-02/) | One stable pod with its own claim | Checker |
+| [m04l04-04](m04l04-04/) | Read identity and claims together | Read along |
 
-- [`m04l04-02/`](m04l04-02/)
-- [`m04l04-04/`](m04l04-04/)
+## Check yourself
+
+- What identity does a StatefulSet preserve?
+- How does a claim follow a replica?
+- Why is deleting a pod not disaster recovery?
+- What must a restore test verify?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Kubernetes: Production-Grade Container Orchestration on LearnSome.tech](https://learnsome.tech/courses/kubernetes-course)

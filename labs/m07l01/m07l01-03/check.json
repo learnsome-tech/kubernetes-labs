@@ -1,0 +1,19 @@
+{
+  "lab": "m07l01-03",
+  "lesson": "m07l01",
+  "title": "Record the intended control plane",
+  "mode": "checker",
+  "runner": "kubeconform",
+  "command": "kubeconform -strict -summary m07-ha-plan.yaml",
+  "main": "m07-ha-plan.yaml",
+  "files": [
+    "m07-ha-plan.yaml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "kubeconform"
+  ],
+  "note": null
+}

@@ -1,0 +1,19 @@
+{
+  "lab": "m03l03-02",
+  "lesson": "m03l03",
+  "title": "Host and path rules with TLS",
+  "mode": "checker",
+  "runner": "kubeconform",
+  "command": "kubeconform -strict -summary m03-ingress.yaml",
+  "main": "m03-ingress.yaml",
+  "files": [
+    "m03-ingress.yaml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "kubeconform"
+  ],
+  "note": null
+}

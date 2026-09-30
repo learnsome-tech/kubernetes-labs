@@ -1,0 +1,11 @@
+resources:
+  - ../../base
+namePrefix: prod-
+namespace: web-prod
+images:
+  - name: web
+    newName: registry.example.test/web
+    newTag: stable
+replicas:
+  - name: web
+    count: 3

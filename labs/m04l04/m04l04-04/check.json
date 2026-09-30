@@ -1,0 +1,17 @@
+{
+  "lab": "m04l04-04",
+  "lesson": "m04l04",
+  "title": "Read identity and claims together",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "shell-read-identity-and-claims-together.py",
+  "files": [
+    "shell-read-identity-and-claims-together.py"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a listing to read alongside the lesson, not a program to run."
+}

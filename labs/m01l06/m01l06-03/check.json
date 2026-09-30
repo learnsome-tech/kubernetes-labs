@@ -1,0 +1,17 @@
+{
+  "lab": "m01l06-03",
+  "lesson": "m01l06",
+  "title": "A tiny smoke test with a clear failure",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "m01-smoke.sh",
+  "files": [
+    "m01-smoke.sh"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a listing to read alongside the lesson, not a program to run."
+}

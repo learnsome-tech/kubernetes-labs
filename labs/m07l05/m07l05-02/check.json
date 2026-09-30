@@ -1,0 +1,17 @@
+{
+  "lab": "m07l05-02",
+  "lesson": "m07l05",
+  "title": "Check each control plane boundary",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "shell-check-each-control-plane-boundary.py",
+  "files": [
+    "shell-check-each-control-plane-boundary.py"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a listing to read alongside the lesson, not a program to run."
+}

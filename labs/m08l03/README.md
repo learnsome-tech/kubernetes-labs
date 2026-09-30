@@ -1,20 +1,23 @@
-# Argo CD Applications And Flux Reconciliation
+# m08l03 · Argo CD Applications And Flux Reconciliation
 
-**Course**: [Kubernetes: Production-Grade Container Orchestration](https://learnsome.tech/courses/kubernetes-course)  
-**Module**: Packaging, GitOps And Operators  
-**Lesson**: `m08l03`
+Module 8: Packaging, GitOps And Operators · lesson 8.3 · Pro · [Open the lesson](https://learnsome.tech/learn/kubernetes-course/m08l03)
 
-## Links
+**Goal:** You can compare Argo CD and Flux reconciliation, define an application source and destination, and read drift status.
 
-- [Watch lesson](https://learnsome.tech/courses/kubernetes-course/watch?lesson=m08l03)
-- [Handbook](https://learnsome.tech/courses/kubernetes-course/book#lesson-8-3)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m08l03-02](m08l03-02/) | An Argo CD Application | Checker |
+| [m08l03-04](m08l03-04/) | Read reconciliation and drift | Read along |
 
-- [`m08l03-02/`](m08l03-02/)
-- [`m08l03-04/`](m08l03-04/)
+## Check yourself
+
+- What does an Application source contain?
+- How does self heal differ from sync?
+- Why is prune risky?
+- Why separate source health from cluster health?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Kubernetes: Production-Grade Container Orchestration on LearnSome.tech](https://learnsome.tech/courses/kubernetes-course)

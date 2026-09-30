@@ -1,20 +1,23 @@
-# Troubleshooting: GitOps Drift And Controller Failures
+# m08l05 · Troubleshooting: GitOps Drift And Controller Failures
 
-**Course**: [Kubernetes: Production-Grade Container Orchestration](https://learnsome.tech/courses/kubernetes-course)  
-**Module**: Packaging, GitOps And Operators  
-**Lesson**: `m08l05`
+Module 8: Packaging, GitOps And Operators · lesson 8.5 · Pro · [Open the lesson](https://learnsome.tech/learn/kubernetes-course/m08l05)
 
-## Links
+**Goal:** You can separate repository, controller, admission, and workload failures when a GitOps application is out of sync.
 
-- [Watch lesson](https://learnsome.tech/courses/kubernetes-course/watch?lesson=m08l05)
-- [Handbook](https://learnsome.tech/courses/kubernetes-course/book#lesson-8-5)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m08l05-02](m08l05-02/) | Read a failed reconciliation | Read along |
+| [m08l05-04](m08l05-04/) | Prove recovery across the layers | Read along |
 
-- [`m08l05-02/`](m08l05-02/)
-- [`m08l05-04/`](m08l05-04/)
+## Check yourself
+
+- What can cause OutOfSync before apply?
+- Why can a healthy controller manage a broken pod?
+- Which three layers prove recovery?
+- Why preserve the original drift message?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Kubernetes: Production-Grade Container Orchestration on LearnSome.tech](https://learnsome.tech/courses/kubernetes-course)

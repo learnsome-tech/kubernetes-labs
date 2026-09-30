@@ -1,20 +1,23 @@
-# Troubleshooting: Pending Claims And Failed Mounts
+# m04l05 · Troubleshooting: Pending Claims And Failed Mounts
 
-**Course**: [Kubernetes: Production-Grade Container Orchestration](https://learnsome.tech/courses/kubernetes-course)  
-**Module**: Configuration And Persistent Data  
-**Lesson**: `m04l05`
+Module 4: Configuration And Persistent Data · lesson 4.5 · Pro · [Open the lesson](https://learnsome.tech/learn/kubernetes-course/m04l05)
 
-## Links
+**Goal:** You can separate pending provisioning from attachment and mount failures and collect the events needed to repair each one.
 
-- [Watch lesson](https://learnsome.tech/courses/kubernetes-course/watch?lesson=m04l05)
-- [Handbook](https://learnsome.tech/courses/kubernetes-course/book#lesson-4-5)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m04l05-02](m04l05-02/) | Pending claim evidence | Read along |
+| [m04l05-03](m04l05-03/) | Failed mount evidence | Read along |
 
-- [`m04l05-02/`](m04l05-02/)
-- [`m04l05-03/`](m04l05-03/)
+## Check yourself
+
+- What does a Pending claim mean?
+- Why can a pod be Pending after a claim exists?
+- Who owns a mount failure?
+- Which object shows attachment state?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Kubernetes: Production-Grade Container Orchestration on LearnSome.tech](https://learnsome.tech/courses/kubernetes-course)

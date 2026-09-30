@@ -1,0 +1,19 @@
+{
+  "lab": "m06l04-02",
+  "lesson": "m06l04",
+  "title": "Label a namespace with a security floor",
+  "mode": "checker",
+  "runner": "kubeconform",
+  "command": "kubeconform -strict -summary m06-psa.yaml",
+  "main": "m06-psa.yaml",
+  "files": [
+    "m06-psa.yaml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "kubeconform"
+  ],
+  "note": null
+}

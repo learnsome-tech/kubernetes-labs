@@ -1,0 +1,17 @@
+{
+  "lab": "m02l04-04",
+  "lesson": "m02l04",
+  "title": "Read completion and schedule state",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "shell-read-completion-and-schedule-state.py",
+  "files": [
+    "shell-read-completion-and-schedule-state.py"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a listing to read alongside the lesson, not a program to run."
+}

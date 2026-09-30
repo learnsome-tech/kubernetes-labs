@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: control-plane-plan
+data:
+  endpoint: api.example.test:6443
+  etcd_members: "3"
+  api_servers: "3"
+  backup: hourly

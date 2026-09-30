@@ -1,0 +1,19 @@
+{
+  "lab": "m02l01-02",
+  "lesson": "m02l01",
+  "title": "An init container gates startup",
+  "mode": "checker",
+  "runner": "kubeconform",
+  "command": "kubeconform -strict -summary m02-init.yaml",
+  "main": "m02-init.yaml",
+  "files": [
+    "m02-init.yaml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "kubeconform"
+  ],
+  "note": null
+}

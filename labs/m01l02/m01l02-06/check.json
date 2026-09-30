@@ -1,0 +1,17 @@
+{
+  "lab": "m01l02-06",
+  "lesson": "m01l02",
+  "title": "The API server is the door",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "shell-the-api-server-is-the-door.py",
+  "files": [
+    "shell-the-api-server-is-the-door.py"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a listing to read alongside the lesson, not a program to run."
+}

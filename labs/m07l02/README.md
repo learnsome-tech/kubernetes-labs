@@ -1,19 +1,22 @@
-# Drain, Upgrade, Version Skew And Certificate Maintenance
+# m07l02 · Drain, Upgrade, Version Skew And Certificate Maintenance
 
-**Course**: [Kubernetes: Production-Grade Container Orchestration](https://learnsome.tech/courses/kubernetes-course)  
-**Module**: Cluster Operations And Recovery  
-**Lesson**: `m07l02`
+Module 7: Cluster Operations And Recovery · lesson 7.2 · Pro · [Open the lesson](https://learnsome.tech/learn/kubernetes-course/m07l02)
 
-## Links
+**Goal:** You can plan a node drain and upgrade around disruption budgets, supported version skew, and certificate expiry.
 
-- [Watch lesson](https://learnsome.tech/courses/kubernetes-course/watch?lesson=m07l02)
-- [Handbook](https://learnsome.tech/courses/kubernetes-course/book#lesson-7-2)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m07l02-03](m07l02-03/) | Record a maintenance checkpoint | Read along |
 
-- [`m07l02-03/`](m07l02-03/)
+## Check yourself
+
+- What does cordon change?
+- Why can drain pause?
+- Which component upgrades first?
+- What should a maintenance checkpoint contain?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Kubernetes: Production-Grade Container Orchestration on LearnSome.tech](https://learnsome.tech/courses/kubernetes-course)

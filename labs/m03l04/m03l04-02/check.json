@@ -1,0 +1,19 @@
+{
+  "lab": "m03l04-02",
+  "lesson": "m03l04",
+  "title": "A Gateway and an HTTPRoute",
+  "mode": "checker",
+  "runner": "kubeconform",
+  "command": "kubeconform -strict -summary m03-gateway.yaml",
+  "main": "m03-gateway.yaml",
+  "files": [
+    "m03-gateway.yaml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "kubeconform"
+  ],
+  "note": null
+}

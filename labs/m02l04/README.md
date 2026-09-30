@@ -1,21 +1,24 @@
-# Jobs And CronJobs
+# m02l04 · Jobs And CronJobs
 
-**Course**: [Kubernetes: Production-Grade Container Orchestration](https://learnsome.tech/courses/kubernetes-course)  
-**Module**: Running And Repairing Workloads  
-**Lesson**: `m02l04`
+Module 2: Running And Repairing Workloads · lesson 2.4 · Pro · [Open the lesson](https://learnsome.tech/learn/kubernetes-course/m02l04)
 
-## Links
+**Goal:** You can run finite work with a Job, schedule repeated work with a CronJob, and choose completion and concurrency policies.
 
-- [Watch lesson](https://learnsome.tech/courses/kubernetes-course/watch?lesson=m02l04)
-- [Handbook](https://learnsome.tech/courses/kubernetes-course/book#lesson-2-4)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m02l04-02](m02l04-02/) | A one shot Job | Checker |
+| [m02l04-03](m02l04-03/) | A scheduled Job with guardrails | Checker |
+| [m02l04-04](m02l04-04/) | Read completion and schedule state | Read along |
 
-- [`m02l04-02/`](m02l04-02/)
-- [`m02l04-03/`](m02l04-03/)
-- [`m02l04-04/`](m02l04-04/)
+## Check yourself
+
+- What does a Job count?
+- When would Forbid concurrency be safer?
+- How do restart policies affect a failed Job?
+- Why set history limits on a CronJob?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Kubernetes: Production-Grade Container Orchestration on LearnSome.tech](https://learnsome.tech/courses/kubernetes-course)

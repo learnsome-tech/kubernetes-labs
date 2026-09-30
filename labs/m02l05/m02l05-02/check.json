@@ -1,0 +1,19 @@
+{
+  "lab": "m02l05-02",
+  "lesson": "m02l05",
+  "title": "Probe the health contract",
+  "mode": "checker",
+  "runner": "kubeconform",
+  "command": "kubeconform -strict -summary m02-probes.yaml",
+  "main": "m02-probes.yaml",
+  "files": [
+    "m02-probes.yaml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "kubeconform"
+  ],
+  "note": null
+}

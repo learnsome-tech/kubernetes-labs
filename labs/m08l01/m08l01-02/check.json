@@ -1,0 +1,19 @@
+{
+  "lab": "m08l01-02",
+  "lesson": "m08l01",
+  "title": "The chart values and deployment template",
+  "mode": "checker",
+  "runner": "yamllint",
+  "command": "yamllint m08-helm-values.yaml",
+  "main": "m08-helm-values.yaml",
+  "files": [
+    "m08-helm-values.yaml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "yamllint"
+  ],
+  "note": null
+}

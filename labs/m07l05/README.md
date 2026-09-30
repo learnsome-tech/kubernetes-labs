@@ -1,19 +1,22 @@
-# Troubleshooting: API Server And Control Plane Failures
+# m07l05 · Troubleshooting: API Server And Control Plane Failures
 
-**Course**: [Kubernetes: Production-Grade Container Orchestration](https://learnsome.tech/courses/kubernetes-course)  
-**Module**: Cluster Operations And Recovery  
-**Lesson**: `m07l05`
+Module 7: Cluster Operations And Recovery · lesson 7.5 · Pro · [Open the lesson](https://learnsome.tech/learn/kubernetes-course/m07l05)
 
-## Links
+**Goal:** You can separate API reachability, authentication, etcd, scheduler, and controller failures using direct health evidence.
 
-- [Watch lesson](https://learnsome.tech/courses/kubernetes-course/watch?lesson=m07l05)
-- [Handbook](https://learnsome.tech/courses/kubernetes-course/book#lesson-7-5)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m07l05-02](m07l05-02/) | Check each control plane boundary | Read along |
 
-- [`m07l05-02/`](m07l05-02/)
+## Check yourself
+
+- What does readyz prove?
+- Which component chooses a node?
+- Who owns ReplicaSet creation?
+- Why check reachability before RBAC?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Kubernetes: Production-Grade Container Orchestration on LearnSome.tech](https://learnsome.tech/courses/kubernetes-course)

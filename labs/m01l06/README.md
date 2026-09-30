@@ -1,20 +1,23 @@
-# Troubleshooting: describe, Events And A First Smoke Test
+# m01l06 · Troubleshooting: describe, Events And A First Smoke Test
 
-**Course**: [Kubernetes: Production-Grade Container Orchestration](https://learnsome.tech/courses/kubernetes-course)  
-**Module**: The Cluster And Your First Diagnosis  
-**Lesson**: `m01l06`
+Module 1: The Cluster And Your First Diagnosis · lesson 1.6 · Free · [Open the lesson](https://learnsome.tech/learn/kubernetes-course/m01l06)
 
-## Links
+**Goal:** You can collect object state and events, use a focused smoke test, and preserve evidence before changing a workload.
 
-- [Watch lesson](https://learnsome.tech/courses/kubernetes-course/watch?lesson=m01l06)
-- [Handbook](https://learnsome.tech/courses/kubernetes-course/book#lesson-1-6)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m01l06-02](m01l06-02/) | Collect state and events | Read along |
+| [m01l06-03](m01l06-03/) | A tiny smoke test with a clear failure | Read along |
 
-- [`m01l06-02/`](m01l06-02/)
-- [`m01l06-03/`](m01l06-03/)
+## Check yourself
+
+- What does describe add beyond get?
+- Why collect events before repairing?
+- What makes a smoke test useful?
+- What is the stopping rule for first diagnosis?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Kubernetes: Production-Grade Container Orchestration on LearnSome.tech](https://learnsome.tech/courses/kubernetes-course)

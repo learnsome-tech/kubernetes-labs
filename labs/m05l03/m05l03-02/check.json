@@ -1,0 +1,19 @@
+{
+  "lab": "m05l03-02",
+  "lesson": "m05l03",
+  "title": "Protect two web replicas",
+  "mode": "checker",
+  "runner": "kubeconform",
+  "command": "kubeconform -strict -summary m05-pdb.yaml",
+  "main": "m05-pdb.yaml",
+  "files": [
+    "m05-pdb.yaml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "kubeconform"
+  ],
+  "note": null
+}

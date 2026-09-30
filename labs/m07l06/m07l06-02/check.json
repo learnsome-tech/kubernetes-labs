@@ -1,0 +1,17 @@
+{
+  "lab": "m07l06-02",
+  "lesson": "m07l06",
+  "title": "Start with a narrow evidence bundle",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "shell-start-with-a-narrow-evidence-bundle.py",
+  "files": [
+    "shell-start-with-a-narrow-evidence-bundle.py"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a listing to read alongside the lesson, not a program to run."
+}

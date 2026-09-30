@@ -1,0 +1,19 @@
+{
+  "lab": "m08l03-02",
+  "lesson": "m08l03",
+  "title": "An Argo CD Application",
+  "mode": "checker",
+  "runner": "kubeconform",
+  "command": "kubeconform -strict -summary m08-argocd.yaml",
+  "main": "m08-argocd.yaml",
+  "files": [
+    "m08-argocd.yaml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "kubeconform"
+  ],
+  "note": null
+}

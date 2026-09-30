@@ -1,20 +1,23 @@
-# Deployments, ReplicaSets, Rollouts And Rollback
+# m02l02 · Deployments, ReplicaSets, Rollouts And Rollback
 
-**Course**: [Kubernetes: Production-Grade Container Orchestration](https://learnsome.tech/courses/kubernetes-course)  
-**Module**: Running And Repairing Workloads  
-**Lesson**: `m02l02`
+Module 2: Running And Repairing Workloads · lesson 2.2 · Pro · [Open the lesson](https://learnsome.tech/learn/kubernetes-course/m02l02)
 
-## Links
+**Goal:** You can create a Deployment, watch a rolling update, pause and resume it, and roll back a bad revision.
 
-- [Watch lesson](https://learnsome.tech/courses/kubernetes-course/watch?lesson=m02l02)
-- [Handbook](https://learnsome.tech/courses/kubernetes-course/book#lesson-2-2)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m02l02-02](m02l02-02/) | A Deployment with a safe update | Checker |
+| [m02l02-03](m02l02-03/) | Observe and undo a rollout | Read along |
 
-- [`m02l02-02/`](m02l02-02/)
-- [`m02l02-03/`](m02l02-03/)
+## Check yourself
+
+- What does a ReplicaSet maintain?
+- Why is zero unavailable useful during a rollout?
+- What change creates a new revision?
+- What does rollback actually change?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Kubernetes: Production-Grade Container Orchestration on LearnSome.tech](https://learnsome.tech/courses/kubernetes-course)

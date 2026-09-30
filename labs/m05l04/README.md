@@ -1,20 +1,23 @@
-# Troubleshooting: Pending Pod Triage
+# m05l04 · Troubleshooting: Pending Pod Triage
 
-**Course**: [Kubernetes: Production-Grade Container Orchestration](https://learnsome.tech/courses/kubernetes-course)  
-**Module**: Scheduling And Resource Pressure  
-**Lesson**: `m05l04`
+Module 5: Scheduling And Resource Pressure · lesson 5.4 · Pro · [Open the lesson](https://learnsome.tech/learn/kubernetes-course/m05l04)
 
-## Links
+**Goal:** You can triage a Pending pod by separating admission, scheduling, storage, and image causes and reading the decisive events.
 
-- [Watch lesson](https://learnsome.tech/courses/kubernetes-course/watch?lesson=m05l04)
-- [Handbook](https://learnsome.tech/courses/kubernetes-course/book#lesson-5-4)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m05l04-02](m05l04-02/) | Events identify the blocking constraint | Read along |
+| [m05l04-04](m05l04-04/) | Confirm the repair reached a node | Read along |
 
-- [`m05l04-02/`](m05l04-02/)
-- [`m05l04-04/`](m05l04-04/)
+## Check yourself
+
+- What does Pending fail to tell you?
+- Why inspect claims before affinity?
+- Which event proves scheduling completed?
+- What does Pulling mean in the lifecycle?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Kubernetes: Production-Grade Container Orchestration on LearnSome.tech](https://learnsome.tech/courses/kubernetes-course)

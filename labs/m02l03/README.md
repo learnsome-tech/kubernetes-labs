@@ -1,20 +1,23 @@
-# DaemonSets And Node Services
+# m02l03 · DaemonSets And Node Services
 
-**Course**: [Kubernetes: Production-Grade Container Orchestration](https://learnsome.tech/courses/kubernetes-course)  
-**Module**: Running And Repairing Workloads  
-**Lesson**: `m02l03`
+Module 2: Running And Repairing Workloads · lesson 2.3 · Pro · [Open the lesson](https://learnsome.tech/learn/kubernetes-course/m02l03)
 
-## Links
+**Goal:** You can use a DaemonSet for one pod per eligible node, constrain it with selectors, and update its node service safely.
 
-- [Watch lesson](https://learnsome.tech/courses/kubernetes-course/watch?lesson=m02l03)
-- [Handbook](https://learnsome.tech/courses/kubernetes-course/book#lesson-2-3)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m02l03-02](m02l03-02/) | A node agent as a DaemonSet | Checker |
+| [m02l03-03](m02l03-03/) | Check node coverage | Read along |
 
-- [`m02l03-02/`](m02l03-02/)
-- [`m02l03-03/`](m02l03-03/)
+## Check yourself
+
+- How is a DaemonSet count different from a Deployment count?
+- What happens when an eligible node joins?
+- Why might a DaemonSet need tolerations?
+- Which status fields reveal missing coverage?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Kubernetes: Production-Grade Container Orchestration on LearnSome.tech](https://learnsome.tech/courses/kubernetes-course)

@@ -1,0 +1,19 @@
+{
+  "lab": "m03l01-02",
+  "lesson": "m03l01",
+  "title": "A ClusterIP Service for the web pods",
+  "mode": "checker",
+  "runner": "kubeconform",
+  "command": "kubeconform -strict -summary m03-service.yaml",
+  "main": "m03-service.yaml",
+  "files": [
+    "m03-service.yaml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "kubeconform"
+  ],
+  "note": null
+}

@@ -1,20 +1,23 @@
-# Troubleshooting: OOMKilled, Throttling And Evictions
+# m05l05 · Troubleshooting: OOMKilled, Throttling And Evictions
 
-**Course**: [Kubernetes: Production-Grade Container Orchestration](https://learnsome.tech/courses/kubernetes-course)  
-**Module**: Scheduling And Resource Pressure  
-**Lesson**: `m05l05`
+Module 5: Scheduling And Resource Pressure · lesson 5.5 · Pro · [Open the lesson](https://learnsome.tech/learn/kubernetes-course/m05l05)
 
-## Links
+**Goal:** You can distinguish OOMKilled from CPU throttling and node eviction and choose evidence based on the owner of each event.
 
-- [Watch lesson](https://learnsome.tech/courses/kubernetes-course/watch?lesson=m05l05)
-- [Handbook](https://learnsome.tech/courses/kubernetes-course/book#lesson-5-5)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m05l05-02](m05l05-02/) | Read an OOMKilled container | Read along |
+| [m05l05-03](m05l05-03/) | Separate throttling from eviction | Read along |
 
-- [`m05l05-02/`](m05l05-02/)
-- [`m05l05-03/`](m05l05-03/)
+## Check yourself
+
+- What does OOMKilled name?
+- How does throttling appear differently?
+- Which component performs eviction?
+- Why can raising a memory limit worsen a node incident?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Kubernetes: Production-Grade Container Orchestration on LearnSome.tech](https://learnsome.tech/courses/kubernetes-course)

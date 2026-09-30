@@ -1,0 +1,17 @@
+{
+  "lab": "m01l03-02",
+  "lesson": "m01l03",
+  "title": "What the cluster knows about its nodes",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "shell-what-the-cluster-knows-about-its-nodes.py",
+  "files": [
+    "shell-what-the-cluster-knows-about-its-nodes.py"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a listing to read alongside the lesson, not a program to run."
+}

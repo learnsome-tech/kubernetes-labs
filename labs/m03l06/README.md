@@ -1,20 +1,23 @@
-# Troubleshooting: DNS, Empty Endpoints And Broken Routes
+# m03l06 · Troubleshooting: DNS, Empty Endpoints And Broken Routes
 
-**Course**: [Kubernetes: Production-Grade Container Orchestration](https://learnsome.tech/courses/kubernetes-course)  
-**Module**: Services And External Traffic  
-**Lesson**: `m03l06`
+Module 3: Services And External Traffic · lesson 3.6 · Pro · [Open the lesson](https://learnsome.tech/learn/kubernetes-course/m03l06)
 
-## Links
+**Goal:** You can trace a failed request from DNS through Service selectors and endpoints to Ingress or Gateway status.
 
-- [Watch lesson](https://learnsome.tech/courses/kubernetes-course/watch?lesson=m03l06)
-- [Handbook](https://learnsome.tech/courses/kubernetes-course/book#lesson-3-6)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m03l06-02](m03l06-02/) | An empty EndpointSlice explains the timeout | Read along |
+| [m03l06-03](m03l06-03/) | Check DNS and route status | Read along |
 
-- [`m03l06-02/`](m03l06-02/)
-- [`m03l06-03/`](m03l06-03/)
+## Check yourself
+
+- What does DNS resolution fail to prove?
+- Which object reveals an empty backend set?
+- How can route status differ from endpoint health?
+- Why inspect events after checking the address?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Kubernetes: Production-Grade Container Orchestration on LearnSome.tech](https://learnsome.tech/courses/kubernetes-course)

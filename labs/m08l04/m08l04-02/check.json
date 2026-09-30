@@ -1,0 +1,19 @@
+{
+  "lab": "m08l04-02",
+  "lesson": "m08l04",
+  "title": "A tiny Website custom resource",
+  "mode": "checker",
+  "runner": "kubeconform",
+  "command": "kubeconform -strict -summary m08-operator-crd.yaml",
+  "main": "m08-operator-crd.yaml",
+  "files": [
+    "m08-operator-crd.yaml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "kubeconform"
+  ],
+  "note": null
+}

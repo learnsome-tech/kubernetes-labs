@@ -1,0 +1,17 @@
+{
+  "lab": "m08l01-03",
+  "lesson": "m08l01",
+  "title": "Render and inspect before install",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "shell-render-and-inspect-before-install.py",
+  "files": [
+    "shell-render-and-inspect-before-install.py"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a listing to read alongside the lesson, not a program to run."
+}

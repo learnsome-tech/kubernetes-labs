@@ -1,20 +1,23 @@
-# StorageClasses, CSI And Dynamic Provisioning
+# m04l03 · StorageClasses, CSI And Dynamic Provisioning
 
-**Course**: [Kubernetes: Production-Grade Container Orchestration](https://learnsome.tech/courses/kubernetes-course)  
-**Module**: Configuration And Persistent Data  
-**Lesson**: `m04l03`
+Module 4: Configuration And Persistent Data · lesson 4.3 · Pro · [Open the lesson](https://learnsome.tech/learn/kubernetes-course/m04l03)
 
-## Links
+**Goal:** You can read a StorageClass, explain CSI provisioning, and choose a storage policy that matches workload durability and performance.
 
-- [Watch lesson](https://learnsome.tech/courses/kubernetes-course/watch?lesson=m04l03)
-- [Handbook](https://learnsome.tech/courses/kubernetes-course/book#lesson-4-3)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m04l03-02](m04l03-02/) | A class with delayed binding | Checker |
+| [m04l03-04](m04l03-04/) | Inspect the class and provisioning events | Read along |
 
-- [`m04l03-02/`](m04l03-02/)
-- [`m04l03-04/`](m04l03-04/)
+## Check yourself
+
+- What does a StorageClass name?
+- Why wait for first consumer?
+- Which CSI component mounts on a node?
+- Where do provisioning failures usually appear first?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Kubernetes: Production-Grade Container Orchestration on LearnSome.tech](https://learnsome.tech/courses/kubernetes-course)

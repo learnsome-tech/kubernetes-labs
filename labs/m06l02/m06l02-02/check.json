@@ -1,0 +1,19 @@
+{
+  "lab": "m06l02-02",
+  "lesson": "m06l02",
+  "title": "Allow read only pod inspection",
+  "mode": "checker",
+  "runner": "kubeconform",
+  "command": "kubeconform -strict -summary m06-rbac.yaml",
+  "main": "m06-rbac.yaml",
+  "files": [
+    "m06-rbac.yaml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "kubeconform"
+  ],
+  "note": null
+}

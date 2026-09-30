@@ -1,0 +1,19 @@
+{
+  "lab": "m03l05-02",
+  "lesson": "m03l05",
+  "title": "Allow web traffic from one namespace",
+  "mode": "checker",
+  "runner": "kubeconform",
+  "command": "kubeconform -strict -summary m03-networkpolicy.yaml",
+  "main": "m03-networkpolicy.yaml",
+  "files": [
+    "m03-networkpolicy.yaml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "kubeconform"
+  ],
+  "note": null
+}

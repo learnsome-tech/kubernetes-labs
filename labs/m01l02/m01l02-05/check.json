@@ -1,0 +1,17 @@
+{
+  "lab": "m01l02-05",
+  "lesson": "m01l02",
+  "title": "Your objects, as keys",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "m01-etcd-keys.sh",
+  "files": [
+    "m01-etcd-keys.sh"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a listing to read alongside the lesson, not a program to run."
+}

@@ -1,23 +1,27 @@
-# Control Plane: etcd, API Server, Scheduler, Controllers
+# m01l02 · Control Plane: etcd, API Server, Scheduler, Controllers
 
-**Course**: [Kubernetes: Production-Grade Container Orchestration](https://learnsome.tech/courses/kubernetes-course)  
-**Module**: The Cluster And Your First Diagnosis  
-**Lesson**: `m01l02`
+Module 1: The Cluster And Your First Diagnosis · lesson 1.2 · Free · [Open the lesson](https://learnsome.tech/learn/kubernetes-course/m01l02)
 
-## Links
+**Goal:** You can name the four control plane components, say what breaks when each one stops, find them running as static pods, see your own objects as keys in etcd, and read the events that prove which component made which decision.
 
-- [Watch lesson](https://learnsome.tech/courses/kubernetes-course/watch?lesson=m01l02)
-- [Handbook](https://learnsome.tech/courses/kubernetes-course/book#lesson-1-2)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m01l02-02](m01l02-02/) | Find them running, and see who started them | Read along |
+| [m01l02-04](m01l02-04/) | Put something in the store | Read along |
+| [m01l02-05](m01l02-05/) | Your objects, as keys | Read along |
+| [m01l02-06](m01l02-06/) | The API server is the door | Read along |
+| [m01l02-07](m01l02-07/) | Two decisions nobody typed | Read along |
 
-- [`m01l02-02/`](m01l02-02/)
-- [`m01l02-04/`](m01l02-04/)
-- [`m01l02-05/`](m01l02-05/)
-- [`m01l02-06/`](m01l02-06/)
-- [`m01l02-07/`](m01l02-07/)
+## Check yourself
+
+- Which component is allowed to write to etcd, and why does that matter?
+- What is a static pod, and why must the control plane start as one?
+- A pod is stuck with no node assigned. Which component do you ask about first?
+- Why do etcd clusters have an odd number of members?
+- What does the events diary record besides what happened?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Kubernetes: Production-Grade Container Orchestration on LearnSome.tech](https://learnsome.tech/courses/kubernetes-course)

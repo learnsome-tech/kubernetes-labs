@@ -1,20 +1,23 @@
-# NodePort, LoadBalancer And ExternalName
+# m03l02 · NodePort, LoadBalancer And ExternalName
 
-**Course**: [Kubernetes: Production-Grade Container Orchestration](https://learnsome.tech/courses/kubernetes-course)  
-**Module**: Services And External Traffic  
-**Lesson**: `m03l02`
+Module 3: Services And External Traffic · lesson 3.2 · Pro · [Open the lesson](https://learnsome.tech/learn/kubernetes-course/m03l02)
 
-## Links
+**Goal:** You can choose among ClusterIP, NodePort, LoadBalancer, and ExternalName according to the traffic boundary you need.
 
-- [Watch lesson](https://learnsome.tech/courses/kubernetes-course/watch?lesson=m03l02)
-- [Handbook](https://learnsome.tech/courses/kubernetes-course/book#lesson-3-2)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m03l02-02](m03l02-02/) | The same selector with a NodePort | Checker |
+| [m03l02-04](m03l02-04/) | Compare Service types safely | Read along |
 
-- [`m03l02-02/`](m03l02-02/)
-- [`m03l02-04/`](m03l02-04/)
+## Check yourself
+
+- Which type opens a port on every node?
+- Who provisions a LoadBalancer address?
+- Why does ExternalName have no EndpointSlice?
+- What stays the same when a NodePort is added?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Kubernetes: Production-Grade Container Orchestration on LearnSome.tech](https://learnsome.tech/courses/kubernetes-course)

@@ -1,0 +1,17 @@
+{
+  "lab": "m03l03-03",
+  "lesson": "m03l03",
+  "title": "Check the controller and rule",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "shell-check-the-controller-and-rule.py",
+  "files": [
+    "shell-check-the-controller-and-rule.py"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a listing to read alongside the lesson, not a program to run."
+}

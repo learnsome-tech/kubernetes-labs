@@ -1,0 +1,19 @@
+{
+  "lab": "m06l03-02",
+  "lesson": "m06l03",
+  "title": "Run the web process with fewer privileges",
+  "mode": "checker",
+  "runner": "kubeconform",
+  "command": "kubeconform -strict -summary m06-securitycontext.yaml",
+  "main": "m06-securitycontext.yaml",
+  "files": [
+    "m06-securitycontext.yaml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "kubeconform"
+  ],
+  "note": null
+}

@@ -1,20 +1,23 @@
-# RBAC: Roles, Bindings And Least Privilege
+# m06l02 · RBAC: Roles, Bindings And Least Privilege
 
-**Course**: [Kubernetes: Production-Grade Container Orchestration](https://learnsome.tech/courses/kubernetes-course)  
-**Module**: Identity And Pod Security  
-**Lesson**: `m06l02`
+Module 6: Identity And Pod Security · lesson 6.2 · Pro · [Open the lesson](https://learnsome.tech/learn/kubernetes-course/m06l02)
 
-## Links
+**Goal:** You can write a namespaced Role and RoleBinding, test an identity with can-i, and reduce permissions to the smallest useful set.
 
-- [Watch lesson](https://learnsome.tech/courses/kubernetes-course/watch?lesson=m06l02)
-- [Handbook](https://learnsome.tech/courses/kubernetes-course/book#lesson-6-2)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m06l02-02](m06l02-02/) | Allow read only pod inspection | Checker |
+| [m06l02-03](m06l02-03/) | Ask the authorizer directly | Read along |
 
-- [`m06l02-02/`](m06l02-02/)
-- [`m06l02-03/`](m06l02-03/)
+## Check yourself
+
+- What does a Role contain?
+- What does a RoleBinding connect?
+- Why test a nearby forbidden action?
+- When is a ClusterRoleBinding appropriate?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Kubernetes: Production-Grade Container Orchestration on LearnSome.tech](https://learnsome.tech/courses/kubernetes-course)

@@ -1,0 +1,19 @@
+{
+  "lab": "m02l02-02",
+  "lesson": "m02l02",
+  "title": "A Deployment with a safe update",
+  "mode": "checker",
+  "runner": "kubeconform",
+  "command": "kubeconform -strict -summary m02-deployment.yaml",
+  "main": "m02-deployment.yaml",
+  "files": [
+    "m02-deployment.yaml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "kubeconform"
+  ],
+  "note": null
+}

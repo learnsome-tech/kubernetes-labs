@@ -1,0 +1,17 @@
+{
+  "lab": "m02l06-02",
+  "lesson": "m02l06",
+  "title": "Diagnose an image pull failure",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "shell-diagnose-an-image-pull-failure.py",
+  "files": [
+    "shell-diagnose-an-image-pull-failure.py"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a listing to read alongside the lesson, not a program to run."
+}

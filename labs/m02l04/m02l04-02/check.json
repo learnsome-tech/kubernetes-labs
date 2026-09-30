@@ -1,0 +1,19 @@
+{
+  "lab": "m02l04-02",
+  "lesson": "m02l04",
+  "title": "A one shot Job",
+  "mode": "checker",
+  "runner": "kubeconform",
+  "command": "kubeconform -strict -summary m02-job.yaml",
+  "main": "m02-job.yaml",
+  "files": [
+    "m02-job.yaml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "kubeconform"
+  ],
+  "note": null
+}

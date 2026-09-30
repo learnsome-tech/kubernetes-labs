@@ -1,20 +1,23 @@
-# Kustomize Base And Dev And Prod Overlays
+# m08l02 · Kustomize Base And Dev And Prod Overlays
 
-**Course**: [Kubernetes: Production-Grade Container Orchestration](https://learnsome.tech/courses/kubernetes-course)  
-**Module**: Packaging, GitOps And Operators  
-**Lesson**: `m08l02`
+Module 8: Packaging, GitOps And Operators · lesson 8.2 · Pro · [Open the lesson](https://learnsome.tech/learn/kubernetes-course/m08l02)
 
-## Links
+**Goal:** You can build a reusable Kustomize base, apply dev and prod overlays, and inspect the final manifests before deployment.
 
-- [Watch lesson](https://learnsome.tech/courses/kubernetes-course/watch?lesson=m08l02)
-- [Handbook](https://learnsome.tech/courses/kubernetes-course/book#lesson-8-2)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m08l02-02](m08l02-02/) | The base and a production overlay | Checker |
+| [m08l02-03](m08l02-03/) | Build both overlays | Read along |
 
-- [`m08l02-02/`](m08l02-02/)
-- [`m08l02-03/`](m08l02-03/)
+## Check yourself
+
+- What belongs in a base?
+- What belongs in an overlay?
+- Why review built output?
+- How does Kustomize differ from copying manifests?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Kubernetes: Production-Grade Container Orchestration on LearnSome.tech](https://learnsome.tech/courses/kubernetes-course)
